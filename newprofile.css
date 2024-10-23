@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #c32424d4;
+    color: white;
+    padding: 20px;   
+}
+.c1{
+    margin-left: 100px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 750px;
+    margin-top: -50px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+}
+
+.about, .skills {
+    padding: 20px;
+}
+
+
+
+.profile-card{
+    position: relative;
+    width: 100%;
+    height: 20%;
+
+}
+
+.profile-card img {
+    width: 100%;
+    margin: 0;
+    height: auto;
+    
+}
+.profile-info {
+ 
+    position: absolute;
+    color:antiquewhite;
+    top: 50px;
+    left: 300px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+.profile{
+    position: absolute;
+    color:antiquewhite;
+    top: 110px;
+    left: 299px;
+}
+.mid{
+    text-align: center;
+    height: 200px;
+}
+.mid-heading{
+    padding-top: 40px;
+}
+.last{
+    text-align: center;
+    height:300px ;
+    background-color: darkgray;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    height: 131px;
+    padding: 20px;
+   align-self: center;
+}
+.c1 {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
